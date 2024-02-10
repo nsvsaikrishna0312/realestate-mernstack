@@ -11,7 +11,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 
-const MONGO_URI = 'mongodb+srv://jithendra98:jithendra@cluster0.mnzta3a.mongodb.net/your-database-name?retryWrites=true&w=majority';
+const MONGO_URI ="";
 
 mongoose.connect(MONGO_URI, {
   useNewUrlParser: true,
